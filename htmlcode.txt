@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Example</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light background color */
+            font-family: Arial, sans-serif; /* Font style */
+        }
+        .marquee {
+            color: #ff4500; /* Text color */
+            font-size: 24px; /* Font size */
+            font-weight: bold; /* Font weight */
+            margin: 20px 0;
+        }
+        .container {
+            text-align: center; /* Center the content */
+        }
+        img {
+            max-width: 100%; /* Responsive image */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <marquee class="marquee">This is a marquee text!</marquee>
+        <img src="https://via.placeholder.com/600x400" alt="Sample Image">
+    </div>
+</body>
+</html>
